@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+}
+#overview {
+    background:#ff1b68;
+    width: 100%;
+    height: 300px;
+    padding: 10px;    
+}
+
+.section-title{
+    color: #2ddf5c;
+}
+
+#overview h1 {
+    color:white;
+    font-family: 'Anton',sans-serif;
+}
+
+.main-header{
+    width: 100%;
+    background:#2ddf5c;
+    padding: 8px 16px;
+}
+/* only DIV that is directly child */
+.main-header > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.brand{
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 90px);
+    vertical-align: middle;
+}
+
+.main-nav-item{
+    padding: 0;
+    margin: 0;
+    list-style: none;    
+}
+
+.nav-item{
+    display: inline-block;
+    margin: 0px 10px;     
+}
+
+.nav-item > a{
+    text-decoration: none; 
+    color: #0e4f1f;    
+}
+
+.nav-item a:hover{
+    color: white;
+}
+S
+.nav-item a:active{
+    color: white;
+}
+
+/* h1 {
+    font-family: sans-serif;
+} */
